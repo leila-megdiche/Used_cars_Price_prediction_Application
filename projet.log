@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.12)  12 MAR 2023 21:32
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 23.1) (preloaded format=pdflatex 2023.3.12)  15 MAR 2023 17:46
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -399,11 +399,7 @@ File: upzd.fd 2001/06/04 font definitions for U/pzd.
 LaTeX Font Info:    Trying to load font information for U+psy on input line 64.
  (C:\Users\megdiche leila\AppData\Local\Programs\MiKTeX\tex/latex/psnfss\upsy.fd
 File: upsy.fd 2001/06/04 font definitions for U/psy.
-)) (projet.aux
-
-LaTeX Warning: Label `exemple-ref-img' multiply defined.
-
-)
+)) (projet.aux)
 \openout1 = `projet.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
@@ -511,8 +507,8 @@ Package pdftex.def Info: used_cars.jpg  used on input line 86.
 (pdftex.def)             Requested size: 213.39568pt x 112.56732pt.
  [2 <./used_cars.jpg>]
 c:/Users/megdiche leila/Desktop/projet_ML/projet.tex:108: Undefined control sequence.
-l.108 ...l import our dataset from this link: \url
-                                                  {https://www.kaggle.com/da...
+l.108 ... import our dataset from this link:  \url
+                                                   {https://www.kaggle.com/d...
 The control sequence at the end of the top line
 of your error message was never \def'ed. If you have
 misspelled it (e.g., `\hobx'), type `I' and the correct
@@ -521,7 +517,7 @@ and I'll forget about whatever was undefined.
 
 [3] (projet.aux)
 
-LaTeX Warning: There were multiply-defined labels.
+LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
  ) 
 Here is how much of TeX's memory you used:
@@ -533,7 +529,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  102i,8n,104p,479b,308s stack positions out of 10000i,1000n,20000p,200000b,200000s
 <C:/Users/megdiche leila/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmbx12.pfb><C:/Users/megdiche leila/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr10.pfb><C:/Users/megdiche leila/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/megdiche leila/AppData/Local/Programs/MiKTeX/fonts/type1/urw/zapfding/uzdr.pfb>
-Output written on projet.pdf (3 pages, 162344 bytes).
+Output written on projet.pdf (3 pages, 162876 bytes).
 PDF statistics:
  41 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
