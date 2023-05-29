@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<style type="text/css">
+		.car {
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.car-image {
+  width: 100%;
+  height: auto;
+}
+
+.car-content {
+  padding: 20px;
+}
+
+.car-title {
+  font-size: 1.5rem;
+  margin-bottom: 10px;
+}
+
+.car-description {
+  font-size: 1rem;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.car-link {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+	</style>
+</head>
+<body>
+<div class="car">
+  <img src="menu.png" alt="Product Image" class="car-image">
+  <div class="car-content">
+    <h2 class="car-title">Product Name</h2>
+    <p class="car-description">Description of the product goes here.</p>
+    <a href="#" class="car-link">Learn More</a>
+  </div>
+</div>
+
+</body>
+<script type="text/javascript">
+	var car = document.querySelector('.car');
+
+car.addEventListener('mouseover', function() {
+  car.classList.add('hover');
+});
+
+car.addEventListener('mouseout', function() {
+  car.classList.remove('hover');
+});
+
+</script>
+</html>

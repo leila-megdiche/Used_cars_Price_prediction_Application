@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Car Price Prediction</title>
+</head>
+<body>
+    <h1>Car Price Prediction</h1>
+    <form action="/" method="post">
+     												
+        <label for="age">age:</label>
+        <input type="text" id="age" name="age"><br>
+
+        <label for="CompanyName">CompanyName:</label>
+        <input type="text" id="CompanyName" name="CompanyName"><br>
+     
+     	<label for="km_driven">km_driven:</label>
+        <input type="text" id="km_driven" name="km_driven"><br>
+     
+     	<label for="fuel">fuel:</label>
+        <input type="text" id="fuel" name="fuel"><br>
+     
+     	<label for="seller_type">seller_type:</label>
+        <input type="text" id="seller_type" name="seller_type"><br>
+     
+     	<label for="transmission">transmission:</label>
+        <input type="text" id="transmission" name="transmission"><br>
+     
+     	<label for="owner">owner</label>
+        <input type="text" id="owner" name="owner"><br>
+     
+     	<label for="mileage">mileage:</label>
+        <input type="text" id="mileage" name="mileage"><br>
+     
+     	<label for="engine">engine:</label>
+        <input type="text" id="engine" name="engine"><br>
+     
+     	<label for="max_power">max_power:</label>
+        <input type="text" id="max_power" name="max_power"><br>
+     
+     	<label for="torque">torque:</label>
+        <input type="text" id="torque" name="torque"><br>
+
+     	<label for="seats">seats:</label>
+        <input type="text" id="seats" name="seats"><br>
+     
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if predicted_price %}
+        <h2>Predicted Price: {{ predicted_price }}</h2>
+    {% endif %}
+</body>
+</html>
